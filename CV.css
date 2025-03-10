@@ -1,0 +1,9 @@
+
+.text-border {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid #007bff; 
+    border-radius: 5px; 
+    background-color: #007bff;
+  }
+  
