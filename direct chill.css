@@ -1,0 +1,7 @@
+.apple { color: rgb(13, 0, 255) }
+.orange { color: orange }
+.small { font-size: 16px }
+.apple.orange {
+font-style: italic;
+color: aqua;
+}
