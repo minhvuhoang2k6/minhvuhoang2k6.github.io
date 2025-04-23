@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" id="main_form">
+        <input type="number" id="number1">
+        <br>
+        <button onclick="checkNumber();" id="check_button">Check</button>
+        <button onclick="resert();" id="resert_button">Resert</button>
+        </form>
+        <p id="result"></p>
+<script>
+    function checkNumber() {
+        var x = parseInt(document.getElementById("number1").value);
+        var text = document.getElementById("result");
+        if (x % 2 == 0) {
+            var text = document.getElementById("result");
+            text.innerHTML = x + " is even";
+            document.getElementById("main_form");
+        } else {
+            //;
+            var text = document.getElementById("result");
+            text.innerHTML = x + " isn't even";
+            document.getElementById("main_form");
+        }
+    }
+    </script>
+</body>
+</html>
